@@ -11,4 +11,4 @@ Columbia Deep-Learning course Final Project-"Multi-digit Number Recognition from
 
 - [Chen Wenjie](https://github.com/JACKCHEN96)
 - [Ye Hongzhe](https://github.com/hy2610)
-- [XX xx](https://github.com/https://github.com/bearbaby1123)
+- [Hsiung Chiaho](https://github.com/https://github.com/bearbaby1123)
