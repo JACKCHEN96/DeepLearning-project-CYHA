@@ -18,6 +18,7 @@ test: 1. Use best model to test.
 
 ## Citation
 - [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
+- [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/)
 ## Contact
 
 - [Chen Wenjie](https://github.com/JACKCHEN96)
