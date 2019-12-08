@@ -22,3 +22,10 @@ test: 1. Use best model to test.
 - [Chen Wenjie](https://github.com/JACKCHEN96)
 - [Ye Hongzhe](https://github.com/hy2610)
 - [Hsiung Chiaho](https://github.com/https://github.com/bearbaby1123)
+
+## Instructions for Image Compression
+
+1. Put DCTQ.mat, compression.m, image2patches.m into data folder where the images you want to compress, such as 'train' foler.
+2. Create a folder to store new compressed images
+3. Change the path name in compression.m according to the name of the folder you built
+4. Run!
