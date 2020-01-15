@@ -7,6 +7,9 @@ This project aims to review and implement the paper "Multi-digit Number Recognit
 ## Code
 The repository contains several files.
 
+DeepLearning_concept(homework): Implemented basic classifiers, MLP, dim reduction (PCA and tSNE), optimizers (SGD with Momentum, RMSprop, Adam), regularization (Dropout, Batch Normalization), data augmentation in Python (NumPy, TensorFlow and so on); Implemented convolutional neural network (used LeNet to achieve over 95% accuracy in Kaggle bottle classification
+competition), recurrent neural network (compute XOR operation); realized simple translating French to English
+
 preprocess: 1. Load training and testing dataset in the SVHN dataset; 2. Find the bounding box exclosing the full street number sequence by using the blue bounding box marked on the digits of street number within each individual image; 3. Crop the images by the enlarged box and resize them into (64, 64, 3); 4. Randomly crop the images to size of (54,54,3).
 
 model: Build a model with eight convolution layers, two fully connected layers, six classifiers to predict.
