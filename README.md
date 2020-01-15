@@ -2,17 +2,22 @@
 Columbia Deep-Learning course Final Project-"Multi-digit Number Recognition from Street View Imagery Paper Recurrence"
 
 ## Introduction
+This project aims to review and implement the paper "Multi-digit Number Recognition from Street View Imagery Paper Recurrence" by Ian J. Goodfellow et al. (2014)
 
 ## Code
-Currently, the directory contains four main files.
+The repository contains several files.
 
-dataprocess: 1. Read the SVHN data (train and test); 2. Use the blue bounding box marked on the digits of street number within each individual image, find the bounding box exclosing the full street number sequence; 3. Extend the bounding box by 30% and crop the image to the size of the bounding box; 4. Resize the image to size of (54,54,3).
+preprocess: 1. Load training and testing dataset in the SVHN dataset; 2. Find the bounding box exclosing the full street number sequence by using the blue bounding box marked on the digits of street number within each individual image; 3. Crop the images by the enlarged box and resize them into (64, 64, 3); 4. Randomly crop the images to size of (54,54,3).
 
-model: Simply build a model with eight convolution layers, two fc layers, six classifiers to predict.
+model: Build a model with eight convolution layers, two fully connected layers, six classifiers to predict.
 
-train: 1. Train and tune hyper-parameter; 2. Plot.
+train_1: 1. Train and tune hyper-parameter with batch size of 16; 2. Plot the accuracy over iteration.
+
+train_2: 1. Train and tune hyper-parameter with batch size of 32; 2. Plot the accuracy over iteration.(which contributes to our best result)
 
 test: 1. Use best model to test.
+
+train_dct, test_dct: Training and testing with JPEG compressed data.
 
 ## Citation
 - [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
@@ -23,9 +28,3 @@ test: 1. Use best model to test.
 - [Ye Hongzhe](https://github.com/hy2610)
 - [Hsiung Chiaho](https://github.com/https://github.com/bearbaby1123)
 
-## Instructions for Image Compression
-
-1. Put DCTQ.mat, compression.m, image2patches.m into data folder where the images you want to compress, such as 'train' foler.
-2. Create a folder to store new compressed images
-3. Change the path name in compression.m according to the name of the folder you built
-4. Run!

@@ -1,9 +1,0 @@
-12.4 17:00 我陈文杰，讨论. 熊哥负责data process，叶哥负责train model，我test，和整理资料。
-12.4 16:00 Hongzhe Ye, finish model.py file and rewrite the train.ipynb. Changes in train.ipynb: 1.delete useless sentences; 2.split the Evaluator class, since the connection between two functions in that class is not tight; 3.delete model function in train.ipynb and use model in model.py file to do the same thing.
-12.5 17:06 Chia-Ho Hsiung, add comments for understanding and comment out extra data since we don't need it for now.  
-12.7 16:02 Meeting Record
------1.	Hyperparameters tuning and store the accuracy in each hyperparameter set
------2.	New dataset for testing the generalization
------3. Alphabet recognition
------4. Innovation: image compression
-
