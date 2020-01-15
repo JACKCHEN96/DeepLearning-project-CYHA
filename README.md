@@ -1,5 +1,7 @@
-# ECBM-E4040-Final
-Columbia Deep-Learning course Final Project-"Multi-digit Number Recognition from Street View Imagery Paper Recurrence"
+# Neural Network and Deep Learning course projects and homeworks
+Two parts:
+Basic concept recurrence;
+Final Project-"Multi-digit Number Recognition from Street View Imagery Paper Recurrence".
 
 ## Introduction
 This project aims to review and implement the paper "Multi-digit Number Recognition from Street View Imagery Paper Recurrence" by Ian J. Goodfellow et al. (2014)
