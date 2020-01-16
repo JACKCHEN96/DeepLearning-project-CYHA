@@ -4,7 +4,7 @@ Basic concept recurrence;
 Final Project-"Multi-digit Number Recognition from Street View Imagery Paper Recurrence".
 
 ## Introduction
-This project aims to review and implement the paper "Multi-digit Number Recognition from Street View Imagery Paper Recurrence" by Ian J. Goodfellow et al. (2014)
+The course is given by Professor Zoron Kostic. This project aims to review all the basic concepts in deeplearning and implement the paper "Multi-digit Number Recognition from Street View Imagery Paper Recurrence" by Ian J. Goodfellow et al. (2014)
 
 ## Code
 The repository contains several files.
